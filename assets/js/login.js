@@ -15,7 +15,7 @@ function validateLogin(event) {
       // Check if email and password match
       if (email === userData.email && password === userData.password) {
         alert("Login successful! Redirecting to home page.");
-        window.location.href = "homepage.html"; // Redirect to home page
+        window.location.href = "detail.html"; // Redirect to home page
       } else {
         alert(
           "Email address and password does not match! Please try again."
