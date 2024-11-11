@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e96c6c 0%, #3f5efb 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.registration-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  /* opacity: 80%; */
+}
+
+.registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #0e0e0e;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #a9a1a1;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3f5efb;
+  background-color: #eef2ff;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.form-group button:hover {
+  background: linear-gradient(135deg, #fc5c7d, #6a82fb);
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.password-match {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+
+.login-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-container a {
+  color: #3f5efb;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.login-container a:hover {
+  color: #fc5c7d;
+  text-decoration: underline;
+}
